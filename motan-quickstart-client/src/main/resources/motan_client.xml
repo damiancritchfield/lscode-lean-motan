@@ -7,4 +7,5 @@
 
     <!-- reference to the remote service -->
     <motan:referer id="remoteService" interface="io.github.damiancritchfield.learn.motan.quickstart.FooService" directUrl="localhost:8002"/>
+    <motan:referer id="remoteServiceAsync" interface="io.github.damiancritchfield.learn.motan.quickstart.FooServiceAsync" directUrl="localhost:8002"/>
 </beans>
